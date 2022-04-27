@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(Fuchsia, Yellow) fixed;
+    margin: 0;
+
+    padding: 0;
+}
+nav{
+    background: Yellow;
+    width: 100%;
+
+}
+nav ul li{
+    display:inline-block; /* расположить пункты горизонтально */
+    font-size: 25px;
+}
+nav ul li a{
+    padding: 10px 100px;
+    display: block;
+}
+nav ul{
+    text-align: center;
+}
+
+main{
+    margin: 8px;
+
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-style:italic;
+    font-size: 20px;
+    padding: 10px 60px;
+    text-align: center;
+}
+
+article{
+    display: flex;
+}
+.nov {
+    padding: 60px 60px;
+}
